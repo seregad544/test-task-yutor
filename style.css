@@ -1,0 +1,60 @@
+.conteiner {
+  width: 400px;
+  height: 400px;
+  background-color: #d9d9d9;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  overflow: hidden;
+}
+  
+.circle1 {
+  width: 315px;
+  height: 315px;
+  border-radius: 157px;
+  background-color: #248456;
+  position: absolute;
+  top: -100px;
+  left: -90px;
+}
+  
+.circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #0ca565;
+  position: absolute;
+  top: 137px;
+  left: 225px;
+}
+  
+.line2 {
+  width: 300px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: #920fbf;
+  position: absolute;
+  top: 270px;
+  left: 50px;
+}
+  
+.line {
+  width: 300px;
+  height: 45px;
+  background-color: #1c3f9b;
+  position: absolute;
+  transform-origin: left top;
+  transform: rotate(47deg);
+  top: 50px;
+  left: 110px;
+}
+  
+.triangle {
+  width: 200px;
+  height: 180px;
+  background-color: #ce3607;
+  transform: skewX(-43deg);
+  position: absolute;
+  top: -70px;
+  left: 380px;
+}
